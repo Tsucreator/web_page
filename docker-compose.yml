@@ -30,7 +30,7 @@ services:
     environment:
       MYSQL_DATABASE: db_webpage #DB名はアンダーバーでもハイフンで認識されるようです。.envのDB名では-を使って書かないとエラーが生じます。
       MYSQL_USER: webpage
-      MYSQL_PASSWORD: password 
+      MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: password
     volumes:
       - db:/var/lib/mysql
